@@ -1,0 +1,26 @@
+{
+  "name": "unit-8-project",
+  "version": "1.0.0",
+  "description": "treehouse unit 8 project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Megan Navarro",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "debug": "^4.2.0",
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "moment": "^2.29.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4",
+    "pug": "^3.0.0",
+    "sequelize": "^6.3.5",
+    "sequelize-cli": "^6.2.0",
+    "sqlite3": "^5.0.0"
+  }
+}
